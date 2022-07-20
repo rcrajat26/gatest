@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,16rem));
+    margin: 20px;
+    overflow: hidden;
+    background-color: rgb(217, 203, 203);
+    width: 300px;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.25s;
+    animation: ease-in;
+}
+
+.container:hover {
+    transform: scale(1.1);    
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.content {
+    text-align: center;
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
